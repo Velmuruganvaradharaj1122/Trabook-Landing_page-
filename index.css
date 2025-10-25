@@ -1225,14 +1225,14 @@ img[alt="2nd_plain"] {
     flex-direction: row;
     gap: 10px;
     z-index: 2;
-    margin-top: -10px; /* Small adjustment to ensure it's right at the top */
+    margin-top: -10px; 
 }
 
 .vacation-navigation .arrow {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    border: 1px solid #4CAF50; /* Green border */
+    border: 1px solid #4CAF50; 
     background: white;
     display: flex;
     align-items: center;
@@ -1306,7 +1306,7 @@ img[alt="2nd_plain"] {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1); /* Added shadow for pop-out effect */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1); 
 }
 .card-info h3 {
     display: flex;
@@ -1325,8 +1325,8 @@ img[alt="2nd_plain"] {
     flex-wrap: wrap;
     gap: 40px;
     text-align: left;
-    max-width: 1200px; /* Ensure wrapper respects max-width */
-    margin: 0 auto; /* Center wrapper */
+    max-width: 1200px; 
+    margin: 0 auto; 
 }
 .Testimonial-sectiom .left, .Testimonial-sectiom .right {
     flex: 1;
@@ -1335,7 +1335,7 @@ img[alt="2nd_plain"] {
 .Testimonial-sectiom .right {
     position: relative;
     min-height: 250px;
-    display: flex; /* Use flex to center cards */
+    display: flex; 
     justify-content: center;
     align-items: center;
 }
@@ -1541,8 +1541,6 @@ img[alt="2nd_plain"] {
     animation: float 3s ease-in-out infinite;
 }
 
-
-/* Ensure parent container has proper positioning */
 .testimonial-section {
     position: relative;
     padding: 80px 0;
@@ -1632,7 +1630,7 @@ img[alt="2nd_plain"] {
     line-height: 1;
 }
 
-/* Subscription Form Styles */
+/* Subscription Form  */
 .subscription-form {
     display: flex;
     background-color: white;
@@ -1656,7 +1654,7 @@ img[alt="2nd_plain"] {
     margin-right: 10px;
 }
 
-/* Dropdown SVG styles */
+/* Dropdown styles */
 .dropdown-svg {
     width: 20px;
     height: 20px;
@@ -1863,9 +1861,9 @@ img[alt="2nd_plain"] {
     background-color: #FA7436;
     transform: scale(1.2);
 }
-/* Remove active state styling */
+
 .dot.active {
-    background-color: #ddd; /* Same as default state */
+    background-color: #ddd;
 }
 
 
@@ -1881,15 +1879,15 @@ img[alt="2nd_plain"] {
     align-items: center;
 }
 
-/* Horizontal line styling - more prominent */
+/* Horizontal  */
 .horizontal-line {
     width: 100%;
-    height: 2px;  /* Increased thickness */
+    height: 2px; 
     border: none;
-    margin: 30px 0;  /* More vertical spacing */
+    margin: 30px 0; 
     display: block;
     padding: 0;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.1);  /* Subtle shadow for depth */
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);  
 }
 
 .footer .top-section {
@@ -1897,7 +1895,7 @@ img[alt="2nd_plain"] {
     margin: -100px auto 0;
     width: 1170px;
     height: 416px;
-    background: #FF7F50; /* Orange color */
+    background: #FF7F50; 
     border-radius: 20px;
     padding: 80px 60px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
@@ -1926,13 +1924,13 @@ img[alt="2nd_plain"] {
 
 .subscribe-container img.circle_vector {
     position: absolute;
-    top: 70%;  /* Center vertically */
-    left: -4%;  /* Center horizontally */
-    transform: translate(-50%, -50%);  /* Center the image */
-    height: auto;  /* Make it larger than the form */
-    z-index: 0;  /* Behind the form */
-    opacity: 1;  /* Make it semi-transparent */
-    pointer-events: none;  /* Allow clicks to pass through */
+    top: 70%;  
+    left: -4%; 
+    transform: translate(-50%, -50%);  
+    height: auto;  
+    z-index: 0;  
+    opacity: 1;  
+    pointer-events: none;  
 }
 
 .subscribe-container img.tree_vector {
