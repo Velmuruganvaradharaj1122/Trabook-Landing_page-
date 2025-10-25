@@ -382,7 +382,6 @@ margin-top: 20px;
     height: 960px;
     margin: 0 auto;
     padding: 60px 0;
-    background-color: #f9f9f9;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1631,6 +1630,96 @@ img[alt="2nd_plain"] {
     margin: 0 0 0 5px;
     font-weight: 500;
     line-height: 1;
+}
+
+/* Subscription Form Styles */
+.subscription-form {
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    margin: 20px auto 0;
+    position: relative;
+    z-index: 1;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    padding: 0 15px;
+    background: #f9f9f9;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+
+/* Dropdown SVG styles */
+.dropdown-svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    opacity: 0.7;
+}
+
+.input-group input[type="email"] {
+    border: none;
+    outline: none;
+    padding: 12px 0;
+    font-size: 1em;
+    color: #333;
+    background: transparent;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.input-group input::placeholder {
+    color: #a0a0a0;
+}
+
+.subscribe-btn {
+    background-color: #FF7757;
+    color: white;
+    border: none;
+    padding: 0 25px;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.2s;
+}
+
+.subscribe-btn:hover {
+    background-color: #ff6347;
+}
+
+.subscribe-btn i {
+    font-size: 0.9em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .subscription-form {
+        flex-direction: column;
+        padding: 15px;
+    }
+    
+    .input-group {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    
+    .subscribe-btn {
+        padding: 12px;
+        justify-content: center;
+    }
 }
 
 /* Responsive styles */
